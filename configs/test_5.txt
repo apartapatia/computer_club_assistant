@@ -1,0 +1,28 @@
+3
+10:00 23:00
+1
+10:00 1 anna
+10:00 1 boris
+10:00 2 anna 1
+10:00 2 boris 2
+11:00 1 charlie
+11:00 2 charlie 3
+12:00 1 david
+12:00 1 emily
+12:00 1 fiona
+12:00 1 george
+12:00 3 david
+12:00 3 emily
+12:00 3 fiona
+12:00 3 george
+14:00 4 anna
+14:00 4 boris
+14:00 4 charlie
+16:00 4 david
+16:00 2 emily 1
+17:00 1 harry
+17:00 2 harry 2
+19:00 4 emily
+19:00 4 fiona
+22:00 1 kevin
+22:00 2 kevin 1
