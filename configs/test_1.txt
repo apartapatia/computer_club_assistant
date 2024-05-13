@@ -8,7 +8,7 @@
 10:01 1 client5
 10:01 1 client6
 10:02 2 client1 1
-10:02 2 client2 4
+10:02 2 client2 2
 10:02 3 client3
 10:02 3 client4
 10:02 3 client5
