@@ -1,12 +1,24 @@
-name: go
+name: Go Tests
 
 on:
   push:
     branches: [main]
 
 jobs:
-  go:
-    runs-on: ubuntu-20.04
+  test:
+    runs-on: ubuntu-latest
+
     steps:
-      - name: Run Unit tests
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.20'
+
+      - name: Install dependencies
+        run: go mod download
+
+      - name: Run tests
         run: go test -v -race ./internal/myparser
